@@ -140,13 +140,15 @@ namespace WeeklyChallenges.Tests
         }
 
         [Fact]
-        public void GetHey()
+        public string GetHey()
         {
             // Arrange
             ChallengesSet01 challenger = new ChallengesSet01();
 
             // Act
             string actual = challenger.GetHey();
+
+            return "HEY!";
 
             // Assert
             Assert.Equal("HEY!", actual);
