@@ -54,7 +54,7 @@ namespace WeeklyChallenges
             {
                 return 0;
             }
-           if(numbers.Count() == 0)
+           if(numbers.Count() == 0) //3,4,5,6 kathya.Count()   (the way I ask the program to tell me how many elements my array has)
             {
                 return 0;
             }
@@ -79,11 +79,11 @@ namespace WeeklyChallenges
             {
                 return 0;
             }
-            var sum = 0;
+            var sum = 0;  //18
 
-            for(int i = 0; i < numbers.Length; i++)
+            for(int i = 0; i < numbers.Length; i++)   //3,4,5,6 kathya.Count()   (the way I ask the program to tell me how many elements my array has)
             {
-                sum += numbers[i];
+                sum += numbers[i]; //sum = sum + numbers[i];      sum = sum + 1  sum += 1        sum = sum + numbers[i];
             }
 
             return sum;
